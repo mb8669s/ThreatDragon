@@ -298,13 +298,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1638,6 +1631,57 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "analysieren",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "analysieren"
+            ],
+            "id": "dccdf375-6fde-476d-be2f-57ee9f9fdc27",
+            "source": {
+              "cell": "ca26e4d1-c745-4477-a419-fdf75c3db467",
+              "port": "11af3c46-ef6c-4637-ac02-671a3b0e78be"
+            },
+            "target": {
+              "cell": "9c3c34fb-568e-4345-87f3-9d1c9e6cf286",
+              "port": "47445ef6-ea19-47ad-bf4c-2bbbd7f80e13"
+            },
+            "vertices": [
+              {
+                "x": 770,
+                "y": 220
+              }
+            ]
+          },
+          {
             "position": {
               "x": 410,
               "y": -174
@@ -2175,8 +2219,8 @@
           },
           {
             "position": {
-              "x": 780,
-              "y": 210
+              "x": 810,
+              "y": 240
             },
             "size": {
               "width": 120,
